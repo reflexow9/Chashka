@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Чашка</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<script src="./main.js" defer></script>
+	</head>
+	<body>
+		<nav id="nav">
+			<div class="wrap">
+				<div class="brand"><span class="mark">☕</span>Чашка</div>
+				<div class="nav-links">
+					<a href="#about">Огляд</a>
+					<a href="#menu">Меню</a>
+					<a href="#reviews">Відгуки</a>
+					<a href="#info">Інформація</a>
+				</div>
+				<a class="btn btn-fill nav-cta" href="#info">Маршрути</a>
+			</div>
+		</nav>
+
+		<header class="hero">
+			<span class="ring ring1"></span>
+			<span class="ring ring2"></span>
+			<span class="ring ring3"></span>
+			<div class="wrap hero-grid">
+				<div>
+					<div class="status-pill" id="status-pill">
+						<span class="status-dot" id="status-dot"></span>
+						<span id="status-text">Перевіряємо графік…</span>
+					</div>
+					<h1>Чашка</h1>
+					<p class="tagline">
+						Спешелті кава в самому серці Центрально-Міського району. Ту саму,
+						заради якої варто прокинутись раніше.
+					</p>
+					<div class="hero-meta">
+						<div><span class="stars">★★★★★</span> 4,7 · 429 відгуків</div>
+						<div>$$ · Кав'ярня</div>
+						<div>вул. Чкалова, 6, Кривий Ріг</div>
+					</div>
+					<div class="hero-actions">
+						<a
+							class="btn btn-fill"
+							href="https://www.google.com/maps/dir/?api=1&destination=%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%A7%D0%BA%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%2C%206%2C%20%D0%9A%D1%80%D0%B8%D0%B2%D0%B8%D0%B9%20%D0%A0%D1%96%D0%B3%2C%20%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C%2050000"
+							target="_blank"
+							rel="noopener"
+							>Прокласти маршрут</a
+						>
+						<a class="btn btn-line" href="#menu">Дивитись меню</a>
+						<a
+							class="btn btn-line"
+							href="https://www.instagram.com/ch.ofcoffee?igsh=ejI3eXdoOW5jZjM3"
+							target="_blank"
+							rel="noopener"
+							>Instagram ↗</a
+						>
+					</div>
+				</div>
+				<div class="cup-stage">
+					<div class="cup-ring"></div>
+					<div class="steam"><span></span><span></span><span></span></div>
+					<svg class="cup-svg" viewBox="0 0 200 200" fill="none">
+						<path
+							d="M40 70 h100 l-8 78c-1.5 14-13 24-27 24H75c-14 0-25.5-10-27-24L40 70Z"
+							fill="#3d2817"
+							stroke="#c99a3f"
+							stroke-width="2"
+						/>
+						<path
+							d="M140 82c22-4 40 8 40 26s-18 30-40 26"
+							stroke="#c99a3f"
+							stroke-width="2"
+							fill="none"
+						/>
+						<ellipse cx="90" cy="70" rx="50" ry="9" fill="#c99a3f" />
+						<ellipse cx="90" cy="66" rx="42" ry="6" fill="#241611" />
+					</svg>
+					<div class="big-rating">
+						<div class="num">4,7</div>
+						<div class="label">429 відгуків</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section id="about" class="light">
+			<div class="wrap">
+				<div class="section-head">
+					<div>
+						<div class="eyebrow">Про нас</div>
+						<h2>Кава, заради якої<br />варто звернути.</h2>
+					</div>
+					<p>
+						Місцева кав'ярня без пафосу: свіже обсмаження, чесні порції та
+						бариста, які пам'ятають ваше замовлення.
+					</p>
+				</div>
+				<div class="about-grid">
+					<div class="about-text">
+						<p>
+							«Чашка» — маленька кав'ярня на вулиці Чкалова, де espresso-бар і
+							кухня працюють в одному ритмі. Ми обсмажуємо зерно невеликими
+							партіями, самі готуємо сиропи й соуси, а сендвічі збираємо на
+							замовлення — щоб хліб не встиг розмокнути, поки ви йдете до
+							столика.
+						</p>
+						<p>
+							Тут немає меню на 40 позицій — є десяток напоїв, які ми справді
+							вміємо готувати добре, і кілька страв, які варто спробувати хоча б
+							раз.
+						</p>
+						<div class="stat-row">
+							<div class="stat">
+								<div class="n">4,7</div>
+								<div class="d">Рейтинг</div>
+							</div>
+							<div class="stat">
+								<div class="n">429</div>
+								<div class="d">Відгуків</div>
+							</div>
+							<div class="stat">
+								<div class="n">$$</div>
+								<div class="d">Цінник</div>
+							</div>
+						</div>
+					</div>
+					<div class="about-card">
+						<div class="qmark">“</div>
+						<p>
+							Такого смачного колд брю ще не було у моєму житті. Смачнішої кави
+							в Кривому Розі ви не знайдете.
+						</p>
+						<div class="who">— Bfdgogu, відвідувачка</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="menu">
+			<div class="wrap">
+				<div class="section-head">
+					<div>
+						<div class="eyebrow">Меню</div>
+						<h2>Що ми варимо<br />щодня.</h2>
+					</div>
+					<p>
+						Найпопулярніші позиції — капучино й какао. Ціна на людину: приблизно
+						1–200 ₴.
+					</p>
+				</div>
+				<div class="menu-grid">
+					<div class="menu-item">
+						<div>
+							<div class="mi-name">
+								Капучино <span class="badge">Популярне</span>
+							</div>
+							<div class="mi-desc">
+								Еспресо, молочна пінка, легка гіркота какао на фініші.
+							</div>
+						</div>
+						<div class="mi-price">65 ₴</div>
+					</div>
+					<div class="menu-item">
+						<div>
+							<div class="mi-name">
+								Какао <span class="badge">Популярне</span>
+							</div>
+							<div class="mi-desc">
+								Домашній шоколад на молоці, без зайвого цукру.
+							</div>
+						</div>
+						<div class="mi-price">60 ₴</div>
+					</div>
+					<div class="menu-item">
+						<div>
+							<div class="mi-name">Колд брю</div>
+							<div class="mi-desc">
+								Настоюється 16 годин, подається з льодом.
+							</div>
+						</div>
+						<div class="mi-price">75 ₴</div>
+					</div>
+					<div class="menu-item">
+						<div>
+							<div class="mi-name">Раф</div>
+							<div class="mi-desc">
+								Вершки, ванільний сироп, збито в піну на парі.
+							</div>
+						</div>
+						<div class="mi-price">85 ₴</div>
+					</div>
+					<div class="menu-item">
+						<div>
+							<div class="mi-name">Лате</div>
+							<div class="mi-desc">
+								М'який баланс еспресо й молока, на вибір рослинне.
+							</div>
+						</div>
+						<div class="mi-price">70 ₴</div>
+					</div>
+					<div class="menu-item">
+						<div>
+							<div class="mi-name">Американо</div>
+							<div class="mi-desc">Чистий смак зерна, без молока.</div>
+						</div>
+						<div class="mi-price">50 ₴</div>
+					</div>
+					<div class="menu-item">
+						<div>
+							<div class="mi-name">Сендвіч з лососем</div>
+							<div class="mi-desc">
+								Слабосолоний лосось, крем-сир, свіжий хліб.
+							</div>
+						</div>
+						<div class="mi-price">120 ₴</div>
+					</div>
+					<div class="menu-item">
+						<div>
+							<div class="mi-name">Чізкейк дня</div>
+							<div class="mi-desc">
+								Рецепт змінюється щотижня — питайте в бариста.
+							</div>
+						</div>
+						<div class="mi-price">90 ₴</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="light">
+			<div class="wrap">
+				<div class="section-head">
+					<div>
+						<div class="eyebrow">Атмосфера</div>
+						<h2>Погляд усередину.</h2>
+					</div>
+					<p>Фото та відео з кав'ярні: меню, атмосфера, їжа й напої.</p>
+				</div>
+				<div class="gallery-grid">
+					<div class="g-tile g1"><span>Атмосфера</span></div>
+					<div class="g-tile g2"><span>Капучино</span></div>
+					<div class="g-tile g3"><span>Меню</span></div>
+					<div class="g-tile g4"><span>Кава</span></div>
+					<div class="g-tile g5"><span>Їжа й напої</span></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="reviews">
+			<div class="wrap">
+				<div class="section-head">
+					<div>
+						<div class="eyebrow">Відгуки</div>
+						<h2>Що кажуть<br />гості.</h2>
+					</div>
+					<p>429 відгуків, середня оцінка 4,7 з 5.</p>
+				</div>
+				<div class="rev-layout">
+					<div class="rating-summary">
+						<div class="big">4,7</div>
+						<div class="stars-lg">★★★★★</div>
+						<div class="count">на основі 429 відгуків</div>
+						<div class="bars">
+							<div class="bar-row">
+								<span>5</span>
+								<div class="bar-track">
+									<div class="bar-fill" style="width: 78%"></div>
+								</div>
+								<span>78%</span>
+							</div>
+							<div class="bar-row">
+								<span>4</span>
+								<div class="bar-track">
+									<div class="bar-fill" style="width: 15%"></div>
+								</div>
+								<span>15%</span>
+							</div>
+							<div class="bar-row">
+								<span>3</span>
+								<div class="bar-track">
+									<div class="bar-fill" style="width: 4%"></div>
+								</div>
+								<span>4%</span>
+							</div>
+							<div class="bar-row">
+								<span>2</span>
+								<div class="bar-track">
+									<div class="bar-fill" style="width: 2%"></div>
+								</div>
+								<span>2%</span>
+							</div>
+							<div class="bar-row">
+								<span>1</span>
+								<div class="bar-track">
+									<div class="bar-fill" style="width: 1%"></div>
+								</div>
+								<span>1%</span>
+							</div>
+						</div>
+					</div>
+					<div class="rev-cards">
+						<div class="rev-card">
+							<div class="rev-top">
+								<div class="rev-who">
+									<div class="avatar">B</div>
+									<div>
+										<div class="rev-name">Bfdgogu</div>
+										<div class="rev-sub">5 відгуків · 2 фотографії</div>
+									</div>
+								</div>
+								<div>
+									<div class="rev-stars">★★★★★</div>
+									<div class="rev-time">рік тому</div>
+								</div>
+							</div>
+							<p class="rev-text">
+								Пила колд брю і їла сендвіч з лососем! Все було неймовірно
+								смачно. Такого смачного колд брю ще не було у моєму житті!
+								Рекомендую всім до відвідування. Смачнішої кави в Кривому Розі
+								ви не знайдете.
+							</p>
+						</div>
+						<div class="rev-card">
+							<div class="rev-top">
+								<div class="rev-who">
+									<div class="avatar">А</div>
+									<div>
+										<div class="rev-name">Анна Пантюхова</div>
+										<div class="rev-sub">3 відгуки · 1 фотографія</div>
+									</div>
+								</div>
+								<div>
+									<div class="rev-stars">★★★★★</div>
+									<div class="rev-time">8 років тому</div>
+								</div>
+							</div>
+							<p class="rev-text">
+								Чудове місце. Дружня атмосфера і найкраща кава в
+								Центрально-Міському районі.
+							</p>
+						</div>
+						<div class="rev-card">
+							<div class="rev-top">
+								<div class="rev-who">
+									<div class="avatar">B</div>
+									<div>
+										<div class="rev-name">blop</div>
+										<div class="rev-sub">
+											Місцевий експерт · 11 відгуків · 47 фотографій
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="rev-stars">★★★★★</div>
+									<div class="rev-time">7 місяців тому</div>
+								</div>
+							</div>
+							<p class="rev-text">
+								Найкраща спешелті кава у місті! Ціна на людину: 1–200 ₴ за
+								відвідування.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="info" class="light" style="padding-bottom: 0">
+			<div class="wrap">
+				<div class="section-head">
+					<div>
+						<div class="eyebrow">Інформація</div>
+						<h2>Години роботи<br />та адреса.</h2>
+					</div>
+				</div>
+			</div>
+			<div class="hl-grid">
+				<div class="hl-card">
+					<h3 style="font-size: 20px; margin-bottom: 4px">Робочі години</h3>
+					<div class="hours-list">
+						<div class="hours-row" data-day="1">
+							<span>Понеділок</span><span>08:00–20:00</span>
+						</div>
+						<div class="hours-row" data-day="2">
+							<span>Вівторок</span><span>08:00–20:00</span>
+						</div>
+						<div class="hours-row" data-day="3">
+							<span>Середа</span><span>08:00–20:00</span>
+						</div>
+						<div class="hours-row" data-day="4">
+							<span>Четвер</span><span>08:00–20:00</span>
+						</div>
+						<div class="hours-row" data-day="5">
+							<span>П'ятниця</span><span>08:00–21:00</span>
+						</div>
+						<div class="hours-row" data-day="6">
+							<span>Субота</span><span>08:00–21:00</span>
+						</div>
+						<div class="hours-row" data-day="0" style="border-bottom: none">
+							<span>Неділя</span><span>09:00–19:00</span>
+						</div>
+					</div>
+					<div class="peak">
+						<div class="peak-header">
+							<div class="peak-title">
+								Години пік · <b id="peak-day-label">сьогодні</b>
+							</div>
+							<div class="day-tabs" id="day-tabs">
+								<button data-day="1">Пн</button>
+								<button data-day="2">Вт</button>
+								<button data-day="3">Ср</button>
+								<button data-day="4">Чт</button>
+								<button data-day="5">Пт</button>
+								<button data-day="6">Сб</button>
+								<button data-day="0">Нд</button>
+							</div>
+						</div>
+						<div class="peak-chart" id="peak-chart"></div>
+						<div class="peak-axis" id="peak-axis"></div>
+					</div>
+				</div>
+				<div class="hl-card">
+					<h3 style="font-size: 20px; margin-bottom: 4px">Як нас знайти</h3>
+					<div class="loc-status">
+						<span
+							class="status-dot"
+							id="status-dot-2"
+							style="background: #8a5a1f"
+						></span>
+						<span id="status-text-2">Перевіряємо графік…</span>
+					</div>
+					<div class="loc-line">
+						<div class="ico">⌂</div>
+						<div class="val">
+							вулиця Чкалова, 6<small
+								>Кривий Ріг, Дніпропетровська область, 50000</small
+							>
+						</div>
+					</div>
+					<div class="loc-line">
+						<div class="ico">#</div>
+						<div class="val">W84R+8M<small>Плюс-код Кривий Ріг</small></div>
+					</div>
+					<div class="loc-line">
+						<div class="ico">◎</div>
+						<div class="val">
+							Їжа в закладі · Доставка<small>Обидва варіанти доступні</small>
+						</div>
+					</div>
+
+					<a
+						class="map-box"
+						href="https://www.google.com/maps/dir/?api=1&destination=%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%A7%D0%BA%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%2C%206%2C%20%D0%9A%D1%80%D0%B8%D0%B2%D0%B8%D0%B9%20%D0%A0%D1%96%D0%B3"
+						target="_blank"
+						rel="noopener"
+						aria-label="Прокласти маршрут до вулиці Чкалова, 6"
+					>
+						<img
+							src="./img/Знімок екрана 2026-07-08 о 09.43.49.png"
+							alt="Карта — вулиця Чкалова, 6, Кривий Ріг"
+							loading="lazy"
+						/>
+						<span class="map-tag">📍 вул. Чкалова, 6 · відкрити маршрут</span>
+					</a>
+					<div class="loc-actions">
+						<a
+							class="btn btn-fill"
+							href="https://www.google.com/maps/dir/?api=1&destination=%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%A7%D0%BA%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%2C%206%2C%20%D0%9A%D1%80%D0%B8%D0%B2%D0%B8%D0%B9%20%D0%A0%D1%96%D0%B3"
+							target="_blank"
+							rel="noopener"
+							>Маршрути</a
+						>
+						<a
+							class="btn btn-line"
+							href="https://www.instagram.com/ch.ofcoffee?igsh=ejI3eXdoOW5jZjM3"
+							target="_blank"
+							rel="noopener"
+							>Instagram ↗</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="wrap">
+				<div class="foot-grid">
+					<div>
+						<div class="foot-brand">Чашка</div>
+						<p class="foot-tag">
+							Кав'ярня на вулиці Чкалова, 6 у Кривому Розі. Спешелті кава,
+							домашня випічка та сендвічі щодня.
+						</p>
+					</div>
+					<div class="foot-col">
+						<h4>Контакти</h4>
+						<a
+							href="https://www.instagram.com/ch.ofcoffee?igsh=ejI3eXdoOW5jZjM3"
+							target="_blank"
+							rel="noopener"
+							>instagram.com</a
+						>
+						<p>вул. Чкалова, 6, Кривий Ріг</p>
+						<p>Дніпропетровська обл., 50000</p>
+					</div>
+					<div class="foot-col">
+						<h4>Заклад</h4>
+						<a href="#menu">Меню</a>
+						<a href="#reviews">Відгуки</a>
+						<a href="#info">Години роботи</a>
+					</div>
+				</div>
+				<div class="foot-bottom">
+					<span>© 2026 Чашка</span>
+					<span id="status-text-3">Перевіряємо графік…</span>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
